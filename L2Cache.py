@@ -59,3 +59,5 @@ class L2Cache:
             self.write(tag)
             if round > 0:
                 return True  # miss로 처리되는 경우
+            else:
+                return False
